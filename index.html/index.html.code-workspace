@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>個人履歷｜劉孟函</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Microsoft JhengHei", sans-serif;
+            background: #fceff4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+        /* 頭部區域 */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #d46a99;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        /* 區塊風格 */
+        .section {
+            background: white;
+            margin-top: 25px;
+            padding: 25px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #d46a99;
+            margin-bottom: 15px;
+        }
+
+        .section p, li {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- 頭部 -->
+    <div class="header">
+        <h1>劉孟函</h1>
+        <p>學號：114031076</p>
+    </div>
+
+    <!-- 自我介紹 -->
+    <div class="section">
+        <h2>💗 自我介紹</h2>
+        <p>
+            大家好，我是劉孟函，一個個性貼心、習慣默默照顧身邊人的女生。
+            我喜歡觀察、傾聽，也常常主動幫忙，希望讓大家的生活更順一點。
+            我對新知識很有興趣，不管是課業還是生活技能，都會努力去學、去了解。
+            期待和大家一起合作、一起成長，請多多指教！
+        </p>
+    </div>
+
+    <!-- 興趣 -->
+    <div class="section">
+        <h2>🎀 興趣</h2>
+        <ul>
+            <li>追劇</li>
+            <li>畫畫</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
